@@ -29,7 +29,9 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles'
+    'django.contrib.staticfiles',
+
+    'users.apps.UsersConfig'
 ]
 
 MIDDLEWARE = [
@@ -122,3 +124,6 @@ STATICFILES_DIRS = (
 )
 #############################################################
 #############################################################
+
+
+AUTH_USER_MODEL = 'users.CustomUser'
