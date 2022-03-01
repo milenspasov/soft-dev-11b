@@ -16,7 +16,9 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
 
-    'users.apps.UsersConfig'
+    'users.apps.UsersConfig',
+    'belote.apps.BeloteConfig',
+    'uno.apps.UnoConfig'
 ]
 
 MIDDLEWARE = [
