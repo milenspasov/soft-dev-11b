@@ -12,13 +12,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
 
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-
     'users.apps.UsersConfig',
     'belote.apps.BeloteConfig',
-    'uno.apps.UnoConfig'
+    'uno.apps.UnoConfig',
+
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount'
 ]
 
 MIDDLEWARE = [
